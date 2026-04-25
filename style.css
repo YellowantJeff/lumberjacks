@@ -3,3 +3,28 @@ body {
   color: white;
   font-family: Courier;
 }
+
+/* unvisited link */
+a:link {
+  color: #58b4ed;
+}
+
+/* visited link */
+a:visited {
+  color: #aa44ff;
+}
+
+/* mouse hover */
+a:hover {
+  color: #00cc88;
+}
+
+/* active (clicked) */
+a:active {
+  color: #58edca;
+}
+
+.tiny-link {
+  font-size: 15px;     /* make it tiny */
+  text-decoration: none;
+}
