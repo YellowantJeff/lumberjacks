@@ -1,2 +1,0 @@
-This is a file so that everyone can agree on what style to use, what to do next, etc.
-1. DO NOT change the style, and not in the HTML file either. That'll make the 
