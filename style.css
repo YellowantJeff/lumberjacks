@@ -24,6 +24,8 @@ a:active {
   color: #58edca;
 }
 
+.tab { margin-left: 40px; } /* Tabs, man. */
+
 .tiny-link {
   font-size: 15px;     /* make it tiny */
   text-decoration: none;
