@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/min@0.2.2/dist/min.min.js"></script> -->
+    <title>Tutorials|Custom Variable Names</title>
+    
+</head>
+<body>
+    <h1>Custom Variable Names</h1>
+    <p>
+        <h2>
+            <a href="tutorial.html">Go back to Tutorial page</a>
+        </h2>
+    </p>
+    <p>
+        <h3>
+            Axe Custom Variable Names Tutorial
+        </h3>
+        <br>
+        <h4></h4>Author: Jeff Calc 84</h4>
+    </p>
+    <p>
+        We all love Axe. However, if there's one thing that's annoying, it's that for variables you can only use A-Z and theta. You can't use any custom variable names...<br>
+        Execpt that, you can?<br><br>
+        First, let's familiarize ourselves with the degree symbol:<br>
+        +=====================================================+<br>
+        |°VAR  |Returns the address of the variable in memory.|<br>
+        +=====================================================+<br>
+        See? Kinda like "&var" in C.<br><br>
+        Now, here's the fun part:<br>
+        +Axe code=================+<br>
+        |L1->°Cnt                 |<br>
+        |L1+2->°Sum               |<br>
+        |ClrHome                  |<br>
+        |0->Cnt                   |<br>
+        |1->Sum                   |<br>
+        |While Cnt(islessthan)100 |<br>
+        |Sum++                    |<br>
+        |Cnt++                    |<br>
+        |Disp Sum                 |<br>
+        |End                      |<br>
+        |Pause 1000               |<br>
+        |ClrHome                  |<br>
+        +=========================+<br>
+        This compiles and runs correctly.<br>
+        Now you know how to make custom variable names in Axe. :)
+    </p>
+</body>
+</html>
